@@ -17,7 +17,7 @@ const continueGame = function (evt) {
     switch (menuTarget) {
       case "New-Game":
         localStorage.setItem("refreshBoard", "yes");
-        location.href = "../newGame.html";
+        location.href = "newGame.html";
         break;
       case "Continue":
         localStorage.setItem("refreshBoard", "no");
